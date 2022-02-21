@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+
+}
+.container{
+    width: 1000px;
+    margin:0 auto ;
+}
+header{
+    height: 200px;
+   
+    
+}
+header p{
+    height: 10px;
+    text-align: center;
+    background: rgb(192, 9, 9);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+header img{
+    padding-left: 50px;
+    padding: 50px 5px 2px;
+}
+nav{
+    height: 50px;
+    background: rgb(133, 6, 6);
+    margin-bottom: 5px;
+   
+}
+.menu>ul>li{
+    display: inline-block;
+}
+.menu>ul>li>a{
+    display: block;
+}
+.menu>ul{
+    padding: 0px 15px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: rgb(133, 6, 6);
+    float: left;
+    line-height: 50px;
+}
+.menu>ul>li>a{
+text-decoration:none;
+font-variant:small-caps;
+font-size:larger;
+ color:white;
+ padding:0 10px;
+ line-height:40px;
+}
+.menu>ul>li>a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    line-height: 50px;
+}
+.menu>ul>li{
+    position: relative;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+}
+.menu ul ul a{
+    display: block;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+ .menu ul ul{
+ padding:0px;
+ margin:0px;
+ list-style:none;
+ border-radius:3px;
+width:200px;
+background-color:white;
+box-shadow:0 0 1px rgb(133, 6, 6);
+}
+ .menu ul ul a{
+ line-height:30px;
+ color:rgb(0, 0, 0);
+ text-decoration:none;
+ font-variant:small-caps;
+ font-size:15PX;
+ padding:0 10px;
+ }
+ .menu ul ul a:hover{
+    background-color:rgb(194, 18, 18);
+     color:white;
+ }
+nav .search{
+    line-height: 50px;
+    float: right;
+    margin-right: 20px;
+    background-color: rgb(133, 6, 6);
+}
+
+     .img2{
+        text-align: center;
+   padding: 20px 20px;
+        
+    }
+    footer{
+        text-align: center;
+    }
+    
+    footer .footer-item{
+        width: 30%;
+        display: inline-block;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+    footer .footer-item h3{
+        margin: 30px 0;
+    }
+    footer .link a{
+        display: block;
+        text-decoration: none;
+    
+    }
+    footer .contact{
+        padding-top: 5px;
+        margin: 40px;
+       
+    }
+    footer .left{
+        float: left;
+        padding-bottom: 20px;
+    padding-top: 20px;
+    }
+    footer .img3{
+      float: right;
+      padding-top: 20px;
+    }
+    
+    article .new-card .news_item:hover img{
+        transform: scale(0.8,0.8);
+    }
+    footer .backtotop{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 40px;
+        right: 20px;
+        background: rgb(255, 71, 71);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h3{
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        padding: 15px 0;
+        color: brown;
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+    
+    }
+    article .new-card .news_item{
+        width: 28%;
+        padding: 12px;
+        float: left;
+        border: 1px solid #ccc;
+        margin-right: 4%;
+    }
+    article .new-card .news_item:hover{
+        
+        transition: all 0,25s ease-in-out;
+    }
+    
+    #fix{
+        margin-right: 0;
+    }
+    article .new-card .news_item h4{
+        font-size: 16;
+        color: brown;
+    }
+    article .new-card .news_item img{
+        margin: 2px 2px 2px;
+        width: 270px;
+        height: 200px;
+        text-align: center;
+    }
+    article .new-card .news_item .container{
+        font-size: 13px;
+    }
+    
